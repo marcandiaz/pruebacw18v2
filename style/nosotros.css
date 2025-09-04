@@ -1,0 +1,29 @@
+
+/* .videoCont {
+    display: flex;
+    justify-content: center;
+}*/
+
+footer {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+.footercard {
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.card-header, .videoCont {
+    display: flex;
+    justify-content: center;
+}
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}

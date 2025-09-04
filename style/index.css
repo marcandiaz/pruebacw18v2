@@ -1,0 +1,49 @@
+main {
+    background-color: aqua;
+}
+
+h1{
+    text-align: center;
+}
+
+.card {
+    background-color: blue;
+    margin: 10px;
+    padding: 10px;
+}
+
+#herramientas {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}
+.footercard {
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+/* .footercard {
+    border: 5px solid blue;
+    border-radius: 10px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    
+} */
