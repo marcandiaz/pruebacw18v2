@@ -30,6 +30,7 @@ footer {
 .card-body {
     display: flex;
     justify-content: space-around;
+    margin: 8px;
 }
 .footercard {
     border: 3px solid gray;
@@ -37,7 +38,12 @@ footer {
     padding: 30px;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    min-width: fit-content;
+}
+.dato {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
 }
 /* .footercard {
     border: 5px solid blue;

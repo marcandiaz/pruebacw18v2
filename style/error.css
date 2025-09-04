@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+.error {
+    width: 90%;
+    border-radius: 30px;
+}
+
+footer {
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+
+.footercard {
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: center;
+}
+.card-body {
+    display: flex;
+    justify-content: space-around;
+}
